@@ -1,0 +1,48 @@
+{
+  "openevalz_version": 1,
+  "eval": {
+    "id": "frames",
+    "slug": "frames",
+    "title": "FRAMES: Factual Retrieval and Multi-hop Evaluation Set",
+    "group": "",
+    "tags": [
+      "reasoning",
+      "retrieval",
+      "multi-hop",
+      "Agent"
+    ],
+    "source": "register"
+  },
+  "upstream": {
+    "repo": "https://github.com/UKGovernmentBEIS/inspect_evals",
+    "path": "register/frames",
+    "inspect_ai": "0.3.260",
+    "eval_version": "",
+    "dependency": ""
+  },
+  "execution": {
+    "class": "plain",
+    "cost_class": "low",
+    "sandbox": null,
+    "requires_internet": false,
+    "fast": false,
+    "supports_k8s": false,
+    "environment": ""
+  },
+  "tasks": [
+    {
+      "name": "frames_baseline",
+      "samples": 0
+    },
+    {
+      "name": "frames_socrates",
+      "samples": 0
+    }
+  ],
+  "total_samples": 0,
+  "external_assets": [],
+  "scaffolds": [
+    "baseline"
+  ],
+  "generated": "2026-08-25"
+}
